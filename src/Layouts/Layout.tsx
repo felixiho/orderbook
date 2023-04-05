@@ -1,8 +1,5 @@
-import { ReactNode } from "react";
-import Head from 'next/head'
+ import Head from 'next/head' 
 import { ChildrenProps } from "./types";
-
- 
 
 const Layout = ({ children }: ChildrenProps) => {
     return (

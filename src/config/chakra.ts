@@ -2,10 +2,10 @@ import { extendTheme } from '@chakra-ui/react'
 
 
 export const colors = {
-    brand: "#8B919F",
+    brand: "#DBEC03",
     green: "#4AB299",
     pink: "#E55986",
-    primary: "#2A2D40",
+    primary: "#DBEC03",
     whiteSmoke: "#F0F0F0"
 }
 

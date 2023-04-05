@@ -1,17 +1,21 @@
 
-import Layout from '@/Layouts/Layout'
-import { Box } from '@chakra-ui/react'
+import Layout from '@/layouts/Layout' 
+import SelectorCard from '@/modules/token-selector/SelectorCard'
+import { Flex } from '@chakra-ui/react'
 import { ReactElement } from 'react'
 import { NextPageWithLayout } from './_app'
 
 
 
+
 const Home: NextPageWithLayout = () => {
+    
+
 
   return (
-    <Box>
-      asdasdf
-    </Box>
+    <Flex p={6} >
+      <SelectorCard />
+    </Flex>
   )
 }
 

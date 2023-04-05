@@ -1,12 +1,15 @@
-
 import '@fontsource/outfit/300.css'
 import '@fontsource/outfit/400.css'
 import '@fontsource/outfit/500.css'
 import '@fontsource/outfit/600.css'
+import '@fontsource/outfit/700.css'
+import '@fontsource/outfit/800.css'
+import '@fontsource/outfit/900.css'
 import type { AppProps } from 'next/app'
-import { ChakraProvider, theme } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react'
 import type { ReactElement, ReactNode } from 'react'
 import type { NextPage } from 'next'
+import theme from '@/config/chakra'
 
 
 
