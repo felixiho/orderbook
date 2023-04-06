@@ -10,6 +10,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import type { ReactElement, ReactNode } from 'react'
 import type { NextPage } from 'next'
 import theme from '@/config/chakra'
+import '../styles/index.css'
 
 
 

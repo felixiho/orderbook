@@ -70,6 +70,12 @@ export const tokens = [
         image: 'https://etherscan.io/token/images/theta_28.png',
         contract: '0x3883f5e181fccaF8410FA61e12b59BAd963fb645',
         decimal: 18
+    }, {
+        id: 12,
+        title: "Aave interest bearing WETH (aWETH)",
+        image: "https://etherscan.io/token/images/Aave_aWETH_32.png",
+        contract: "0x030bA81f1c18d280636F32af80b9AAd02Cf0854e",
+        decimal: 18
+
     }
-]
-                     
+] 
