@@ -1,5 +1,4 @@
-
-import Layout from '@/layouts/Layout'
+ 
 import { fetchOrderBook } from '@/modules/api'
 import SelectorCard from '@/modules/token-selector/SelectorCard'
 import { useEffect, useState } from "react";
@@ -10,6 +9,7 @@ import { NextPageWithLayout } from './_app'
 import OrderBookDisplay from '@/modules/order-book/OrderBookDisplay';
 import { BidAskEnum, MetaDataStateType, OrderType } from '@/modules/order-book/types';
 import {   sortOrderEntry } from '@/modules/order-book/utils';
+import Layout from '@/layouts/Layout';
 
 
 
